@@ -10,8 +10,10 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <body>
     <Nav />
-    <App />
-    <Footer />
+    <main>
+      <App />
+    </main>
+    
   </body>,
   document.getElementById('root')
 );
