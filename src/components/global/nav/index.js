@@ -1,11 +1,44 @@
 import React from 'react';
 
 export default class Nav extends React.Component {
+    constructor(){
+        super()
+        this.state = {
+            showMenu: false
+        }
+    }
+
+    toggleMenu = () => {
+        const hamburger = document.querySelector('.menu-btn__burger');
+        const nav = document.querySelector('.nav');
+        const menuNav = document.querySelector('.menu-nav');
+        const navItems = document.querySelectorAll('.menu-nav__item');
+
+        if(!this.state.showMenu){
+            hamburger.classList.add('open');
+            nav.classList.add('open');
+            menuNav.classList.add('open');
+            navItems.forEach(item => item.classList.add('open'));
+            
+            this.setState({
+                showMenu: true
+            })
+        } else {
+            hamburger.classList.remove('open');
+            nav.classList.remove('open');
+            menuNav.classList.remove('open');
+            navItems.forEach(item => item.classList.remove('open'));
+    
+            this.setState({
+                showMenu: false
+            })
+        }
+    }
 
     render(){
         return(
             <header>
-                <div className='menu-btn'>
+                <div onClick={this.toggleMenu} className='menu-btn'>
                     <span className='menu-btn__burger' />
                 </div>
 
