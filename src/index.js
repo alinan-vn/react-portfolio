@@ -13,7 +13,6 @@ ReactDOM.render(
     <main>
       <App />
     </main>
-    
   </body>,
   document.getElementById('root')
 );
