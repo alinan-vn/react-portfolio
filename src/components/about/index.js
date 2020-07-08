@@ -15,8 +15,14 @@ class About extends React.Component{
 
                 <div className='jobs'>
                     <div className='jobs__job'>
+                        <h2 className='text-secondary'>2020 - Current</h2>
+                        <h3>Ciy of Wind Design</h3>
+                        <h6>Software Developer</h6>
+                        <p>Collaborating with UX/UI designers to develop new apps and technologies. Currently deploying a landing page as well as working on other in-house projects.</p>
+                    </div>
+                    <div className='jobs__job'>
                         <h2 className='text-secondary'>2019 - Current</h2>
-                        <h3>Programmer</h3>
+                        <h3>Software Engineer</h3>
                         <h6>Full Stack Developer</h6>
                         <p>Flatiron School Grad! Experienced in React.js and Ruby on Rails. Also knowledgeable in HTML and CSS. Has also used Semantic UI, Bulma, and Sass.</p>
                     </div>
