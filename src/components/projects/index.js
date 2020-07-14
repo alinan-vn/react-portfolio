@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../global/footer/index';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faYoutube} from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faYoutube, faChrome} from '@fortawesome/free-brands-svg-icons'
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faInstagram, faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
@@ -20,6 +20,9 @@ class Projects extends React.Component{
                     <div className='projects__item'>
                         <img src={require('../../img/pawns-icon.png')} alt='My Project' />
                         <div className='projects__btns'>
+                        <a href='https://pawns-chess.herokuapp.com/' className='projects__btn' target='_blank'>
+                                <FontAwesomeIcon className='projects__icons' icon={faChrome} />
+                            </a>
                             <a href='https://github.com/alinan-vn/pawns-fe-react-js' className='projects__btn' target='_blank'>
                                 <FontAwesomeIcon className='projects__icons' icon={faGithub} />
                             </a>
