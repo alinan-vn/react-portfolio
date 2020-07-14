@@ -16,7 +16,7 @@ class About extends React.Component{
                 <div className='jobs'>
                     <div className='jobs__job'>
                         <h2 className='text-secondary'>2020 - Current</h2>
-                        <h3>Ciy of Wind Design</h3>
+                        <h3>City of Wind Design</h3>
                         <h6>Software Developer</h6>
                         <p>Collaborating with UX/UI designers to develop new apps and technologies. Currently deploying a landing page as well as working on other in-house projects.</p>
                     </div>
@@ -36,7 +36,7 @@ class About extends React.Component{
                         <h2 className='text-secondary'>2016 - 2018</h2>
                         <h3>Attending University of Illinois at Urbana Champaign</h3>
                         <h6>Completed coursework towards Bachelors in Aerospace Engineering</h6>
-                        <p>Took the general two year math and science classes required for an engineering major. I also took a few Aerospace classes but it ultimately it wasn't for me.</p>
+                        <p>Took the general two year math and science classes required for an engineering major. I also took a few Aerospace classes but ultimately it wasn't for me.</p>
                     </div>
                 </div>
                 
