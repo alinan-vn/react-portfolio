@@ -42,6 +42,17 @@ class Projects extends React.Component{
                             </a>
                         </div>
                     </div>
+                    <div className='projects__item'>
+                        <img src={require('../../img/music-scales.PNG')} alt='My Project' />
+                        <div className='projects__btns'>
+                        <a href='https://guitar-scales-v-network.herokuapp.com/' className='projects__btn' target='_blank'>
+                                <FontAwesomeIcon className='projects__icons' icon={faChrome} />
+                            </a>
+                            <a href='https://github.com/alinan-vn/music-scales-practice' className='projects__btn' target='_blank'>
+                                <FontAwesomeIcon className='projects__icons' icon={faGithub} />
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 <Footer />
