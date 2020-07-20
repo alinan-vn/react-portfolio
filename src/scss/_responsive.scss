@@ -71,10 +71,71 @@
     .contact__list {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .home {
+        background: 
+        linear-gradient(
+            to right,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.2)
+        ),
+        url($bg-two) center top;
+    }
+
+    .about__bio-image {
+        background: 
+        linear-gradient(
+            to right,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.2)
+        ),
+        url($bg-two) center top;
+    }
+
+    .projects__bio-image {
+        background: 
+        linear-gradient(
+            to right,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.2)
+        ),
+        url($bg-two) center top;
+    }
 }
+
 
 @include media-xl {
     .projects__bio-image {
         height: 50vh;
+    }
+
+    .home {
+        background: 
+        linear-gradient(
+            to right,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.2)
+        ),
+        url($bg-two) center top;
+    }
+
+    .about__bio-image {
+        background: 
+        linear-gradient(
+            to right,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.2)
+        ),
+        url($bg-two) center top;
+    }
+
+    .projects__bio-image {
+        background: 
+        linear-gradient(
+            to right,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.2)
+        ),
+        url($bg-two) center top;
     }
 }
