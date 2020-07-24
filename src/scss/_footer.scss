@@ -1,0 +1,13 @@
+footer {
+    font-size: 1rem;
+    position: fixed;
+    bottom: 0.4rem;
+    right: 1rem;
+    text-align: 1rem;
+    color: set-text-color($primary-color);
+}
+
+footer li {
+    list-style-type: none;
+    color: $secondary-color;
+}

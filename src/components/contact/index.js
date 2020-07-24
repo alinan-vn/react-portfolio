@@ -1,5 +1,9 @@
 import React from 'react';
 import Footer from '../global/footer/index';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope,  } from '@fortawesome/free-regular-svg-icons';
+import { faMobile, faCity } from '@fortawesome/free-solid-svg-icons'
 
 class Contact extends React.Component {
     render(){
@@ -8,17 +12,17 @@ class Contact extends React.Component {
                 <h2>Contact Me..</h2>
 
                 <div className="contact__list">
-                    <div className="contact__email">
-                        {/* <i className="fas fa-envelope"></i> Email */}
-                        <div className="text-secondary">jandrolinan@gmail.com</div>
+                    <div>
+                        <FontAwesomeIcon className='contact__item' icon={faEnvelope} />
+                        <div className="contact__text">jandrolinan@gmail.com</div>
                     </div>
-                    <div className="contact__phone">
-                        {/* <i className="fas fa-mobile-alt"></i> Phone */}
-                        <div className="text-secondary">+1 (312) 888 - 1838</div>
+                    <div>
+                        <FontAwesomeIcon className='contact__item' icon={faMobile} />
+                        <div className="contact__text">+1 (312) 888 - 1838</div>
                     </div>
-                    <div className="contact__address">
-                        {/* <i className="fas fa-city"></i> Local At */}
-                        <div className="text-secondary">Chicago, IL</div>
+                    <div>
+                        <FontAwesomeIcon className='contact__item' icon={faCity} />
+                        <div className="contact__text">Chicago, IL</div>
                     </div>
                 </div>
 

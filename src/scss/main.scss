@@ -5,6 +5,7 @@
 @import './projects';
 @import './contact';
 @import './responsive';
+@import './footer';
 
 body {
     background: $primary-color;
@@ -51,13 +52,4 @@ main {
             }
         }
     }
-}
-
-footer {
-    font-size: 1rem;
-    position: fixed;
-    bottom: 0.4rem;
-    right: 1rem;
-    text-align: 1rem;
-    color: set-text-color($primary-color);
 }
