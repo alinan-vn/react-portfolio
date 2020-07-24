@@ -32,10 +32,17 @@
         text-align: center;
     }
 
+    &__res-text {
+        color: $secondary-color;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
     &__item {
         font-size: 2.5rem;
         margin-bottom: 2rem;
         margin-left: 50%;
+        color: $secondary-color;
     }
 }
 

@@ -2,8 +2,9 @@ import React from 'react';
 import Footer from '../global/footer/index';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faWordpress } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import { faMobile } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faFile } from '@fortawesome/free-regular-svg-icons';
+import { faMobile } from '@fortawesome/free-solid-svg-icons';
+import Resume from '../../files/WebDevResume.pdf';
 
 class Contact extends React.Component {
     render(){
@@ -31,6 +32,12 @@ class Contact extends React.Component {
                             <FontAwesomeIcon className='contact__item social-icon' icon={faWordpress} />
                         </a>
                         <div className="contact__text">My Blog!</div>
+                    </div>
+                    <div>
+                        <a href={Resume} target='_blank'>
+                            <FontAwesomeIcon className='contact__item social-icon' icon={faFile} />
+                        </a>
+                        <div className="contact__text">My Resume!</div>
                     </div>
                 </div>
 
