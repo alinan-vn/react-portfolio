@@ -55,10 +55,13 @@
         }
     }
 
-    .contact__list {
-        grid-template-columns: repeat(2, 1fr);
-    }
+    .contact {
+        padding-top: 30vh;
 
+        &__list {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
 }
 
 @include media-lg {
@@ -68,9 +71,9 @@
         }
     }
 
-    .contact__list {
-        grid-template-columns: repeat(3, 1fr);
-    }
+    // .contact__list {
+    //     grid-template-columns: repeat(3, 1fr);
+    // }
 
     .home {
         background: 
@@ -100,6 +103,10 @@
             rgba($primary-color, 0.2)
         ),
         url($bg-two) center top;
+    }
+
+    .contact {
+        padding-top: 40vh;
     }
 }
 
