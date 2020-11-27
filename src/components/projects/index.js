@@ -6,10 +6,6 @@ import { faGithub, faYoutube, faChrome} from '@fortawesome/free-brands-svg-icons
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faInstagram, faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-{/* <FontAwesomeIcon onClick={() => this.goToSocial('https://www.youtube.com/watch?v=dQw4w9WgXcQ')} className='social-icons' icon={faFacebook} /> */}
-
-// sample code to test contribution
-
 class Projects extends React.Component{
     render(){
         return (
