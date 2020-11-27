@@ -18,7 +18,7 @@ class Projects extends React.Component{
 
                 <div className='projects__items'>
                     <div className='projects__item'>
-                        <img src={require('../../img/pawns-icon.png')} alt='My Project' />
+                        <img src={require('./images/pawns-icon.png')} alt='My Project' />
                         <div className='projects__btns'>
                         <a href='https://pawns-chess.herokuapp.com/' className='projects__btn' target='_blank'>
                                 <FontAwesomeIcon className='projects__icons' icon={faChrome} />
@@ -32,7 +32,7 @@ class Projects extends React.Component{
                         </div>
                     </div>
                     <div className='projects__item'>
-                        <img src={require('../../img/flatnote-icon.png')} alt='My Project' />
+                        <img src={require('./images/flatnote-icon.png')} alt='My Project' />
                         <div className='projects__btns'>
                             <a href='https://github.com/alinan-vn/flat-note-fe-react-redux' className='projects__btn' target='_blank'>
                                 <FontAwesomeIcon className='projects__icons' icon={faGithub} />
@@ -43,12 +43,23 @@ class Projects extends React.Component{
                         </div>
                     </div>
                     <div className='projects__item'>
-                        <img src={require('../../img/music-scales.PNG')} alt='My Project' />
+                        <img src={require('./images/music-scales.PNG')} alt='My Project' />
                         <div className='projects__btns'>
                         <a href='https://guitar-scales-v-network.herokuapp.com/' className='projects__btn' target='_blank'>
                                 <FontAwesomeIcon className='projects__icons' icon={faChrome} />
                             </a>
                             <a href='https://github.com/alinan-vn/music-scales-practice' className='projects__btn' target='_blank'>
+                                <FontAwesomeIcon className='projects__icons' icon={faGithub} />
+                            </a>
+                        </div>
+                    </div>
+                    <div className='projects__item'>
+                        <img src={require('./images/city-of-wind-website.PNG')} alt='My Project' />
+                        <div className='projects__btns'>
+                        <a href='https://cwdw-temp.herokuapp.com/' className='projects__btn' target='_blank'>
+                                <FontAwesomeIcon className='projects__icons' icon={faChrome} />
+                            </a>
+                            <a href='https://github.com/alinan-vn/cwd-website-fe' className='projects__btn' target='_blank'>
                                 <FontAwesomeIcon className='projects__icons' icon={faGithub} />
                             </a>
                         </div>
