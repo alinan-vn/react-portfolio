@@ -8,8 +8,8 @@ class About extends React.Component{
                 <div className='about__bio-image'>
                     <div className='about__bio'>
                         <h2 className='text-secondary'>BIO</h2>
-                        <p>Full Stack Developer, graduated from Flatiron School, looking to design YOUR new website. In my free time I enjoy running, bouldering, making music, and chess.</p>
-                        <p>Open to entry level Full-Stack, Backend, and Front End development positions. Also interested in any website or mobile application idea you have. Feel free to reach out about any potential partnership in these manners or even to chat about my other interests!</p>
+                        <p>Lead Software Developer, graduate of Flatiron School’s Software Engineering program, working on fullstack applications built on React, Rails, and Wordpress.Project and people manager, collaborating with UX/UI Design team on ethical and accessibility practices. </p>
+                        <p>Studying guitar, piano, and drums made me disciplined in learning and practicing skills. Composing music within a band honed my communication and team building skills. Cross country running has proved that maintenance is just as important as creating.</p>
                     </div>
                 </div>
 
@@ -18,7 +18,9 @@ class About extends React.Component{
                         <h2 className='text-secondary'>2020 - Current</h2>
                         <h3>City of Wind Design</h3>
                         <h6>Software Developer</h6>
-                        <p>Collaborating with UX/UI designers to develop new apps and technologies. Currently deploying a landing page as well as working on other in-house projects.</p>
+                        <p>The Software Lead for In House projects.</p>
+                        <p>Currently in the beta test stage of launching the official website. Frontend: React, Backend: Wordpress </p>
+                        <p>Currently in the ideate and backend stage of our first e-commerce website! Frontend: React (with Redux), Backend: Ruby on Rails </p>
                     </div>
                     <div className='jobs__job'>
                         <h2 className='text-secondary'>2019 - Current</h2>
