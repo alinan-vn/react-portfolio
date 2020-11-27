@@ -7,11 +7,6 @@ import { faGithub, faYoutube, faChrome} from '@fortawesome/free-brands-svg-icons
 // import { faInstagram, faFacebook, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 class Projects extends React.Component{
-
-    test = () => {
-        //test for the branch commit
-    }
-
     render(){
         return (
             <section className='projects'>
