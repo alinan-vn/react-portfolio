@@ -2,6 +2,8 @@ import React from 'react';
 import Footer from '../global/footer/index';
 
 class About extends React.Component{
+
+    // random test
     render(){
         return (
             <section className='about'>
